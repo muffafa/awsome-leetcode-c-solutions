@@ -38,4 +38,4 @@ You can return the answer in any order.
 | ID  |   METHOD   | LINK                              |
 | :-- | :--------: | :-------------------------------- |
 | 1   | Brut Force | [two-sum.md](two-sum.md)          |
-| 2   | Hash Table | [two-sum-hash.md](two-sum-hash.c) |
+| 2   | Hash Table | [two-sum-hash.md](two-sum-hash.md) |
