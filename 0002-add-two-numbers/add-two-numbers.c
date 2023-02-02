@@ -35,20 +35,19 @@ int getValueOfListNode(struct ListNode* listNode){
 struct ListNode* getListNodeOfValue(int num){
     struct ListNode *head = (struct ListNode*)(malloc(sizeof(struct ListNode)));
     head ->next = NULL;
-    head ->val = 0;
+    head ->val = num % 10;
     struct ListNode *p = head;
+    num /= 10;
     
 
     while(num != 0){
-        p ->val = num % 10; //342 => 2 
-        num /= 10; //num = 34
-        struct ListNode *node = (struct ListNode*)(malloc(sizeof(struct ListNode)));
+        struct ListNode *node = (struct ListNode*) malloc(sizeof(struct ListNode));
+        node->val = num % 10;
         node->next = NULL;
-        node->val = 0;
         p->next = node;
-        p = p ->next;
+        p = node;
+        num /= 10;
     }
-    p = NULL;
     return head;
 }
 
