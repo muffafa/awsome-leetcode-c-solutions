@@ -23,4 +23,3 @@
 | ID  | METHOD  | LINK |
 | :-- | :-----: | :--- |
 | 1   | example |      |
-
