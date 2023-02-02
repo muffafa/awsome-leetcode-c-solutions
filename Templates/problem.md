@@ -20,6 +20,7 @@
 ## Solutions
 <!-- Solutions of problem and their links. -->
 
-| ID  | METHOD  | LINK     |
-| :-- | :-----: | :------- |
-| 1   | example | [link]() |
+| ID  | METHOD  | LINK |
+| :-- | :-----: | :--- |
+| 1   | example |      |
+
