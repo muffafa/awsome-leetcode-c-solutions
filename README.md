@@ -22,7 +22,7 @@
 
 ## Introduction
 
-Welcome to solutions of leetcode algorithms on C language. 
+Welcome to solutions of leetcode algorithms on C language.
 
 ## How to use it?
 
