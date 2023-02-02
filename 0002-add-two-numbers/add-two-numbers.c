@@ -2,16 +2,16 @@
 #include<stdlib.h> //to use malloc
 
 struct ListNode {
-    int val;
+    unsigned int val;
     struct ListNode *next;
 };
 
-int getValueOfListNode(struct ListNode* listNode);
-struct ListNode* getListNodeOfValue(int num);
-//int getReverseOfValue(int num);
+unsigned int getValueOfListNode(struct ListNode* listNode);
+struct ListNode* getListNodeOfValue(unsigned int num);
+//unsigned int getReverseOfValue(unsigned int num);
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
 
-int main(){
+unsigned int main(){
     struct ListNode *l1 = getListNodeOfValue(342);
     struct ListNode *l2 = getListNodeOfValue(465);
     struct ListNode *result = addTwoNumbers(l1,l2);
@@ -19,9 +19,9 @@ int main(){
     return 0;
 }
 
-int getValueOfListNode(struct ListNode* listNode){
-    int num = 0;
-    int digitVal = 1;
+unsigned int getValueOfListNode(struct ListNode* listNode){
+    unsigned int num = 0;
+    unsigned int digitVal = 1;
     struct ListNode* p = listNode;
     while (p != NULL)
     {
@@ -32,7 +32,7 @@ int getValueOfListNode(struct ListNode* listNode){
     return num;
 }
 
-struct ListNode* getListNodeOfValue(int num){
+struct ListNode* getListNodeOfValue(unsigned int num){
     struct ListNode *head = (struct ListNode*)(malloc(sizeof(struct ListNode)));
     head ->next = NULL;
     head ->val = num % 10;
@@ -52,8 +52,8 @@ struct ListNode* getListNodeOfValue(int num){
 }
 
 /*
-int getReverseOfValue(int num){
-    int sum, remainder, revNum = 0;
+unsigned int getReverseOfValue(unsigned int num){
+    unsigned int sum, remainder, revNum = 0;
     while (num != 0)
     {
         remainder = num % 10;
@@ -65,7 +65,7 @@ int getReverseOfValue(int num){
 */
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
-    int num = getValueOfListNode(l1) + getValueOfListNode(l2);
+    unsigned int num = getValueOfListNode(l1) + getValueOfListNode(l2);
     
     return getListNodeOfValue(num);
 }
