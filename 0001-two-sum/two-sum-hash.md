@@ -19,7 +19,7 @@ The space complexity of the two-sum problem solved using a hash table is $O(n)$,
 
 ## Code
 
-```cpp
+```c
 struct HashNode{
     int key;
     int value;
