@@ -40,7 +40,7 @@ Each solution md files include;
 - Header (that navigate to online explanation of solution)
 - Approach (it describes approach to solving the problem)
 - Complexity (it determines time and space complexity of solution)
--Code (real solution of problem)
+- Code (real solution of problem)
 
 ## How to clone it?
 
