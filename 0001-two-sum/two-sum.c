@@ -7,7 +7,7 @@ int main(){
     int nums[5] = {2,4,6,7,9};
     int numsSize = sizeof(nums)/sizeof(nums[0]);
     int target = 9;
-    int* returnSize;
+    int* returnSize = malloc(sizeof(int)); // to debug segmantation fault
     int* answer;
     answer = twoSum(nums, numsSize, target, returnSize);
     /*
