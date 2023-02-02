@@ -12,8 +12,7 @@
 
 **Constraints:**
 <!-- Constraints of problem. -->
-- 
--
+-  
 
 **Follow-up:**  
 <!-- Do more! -->

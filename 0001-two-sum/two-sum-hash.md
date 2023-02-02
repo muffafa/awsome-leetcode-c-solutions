@@ -1,4 +1,5 @@
 # [Hash Table to solve the Two-Sum Problem on C language](https://leetcode.com/problems/two-sum/solutions/3129365/hash-table-to-solve-the-two-sum-problem-on-c-language/)
+
 ## Approach
 
 The approach of using a hash table to solve the two-sum problem involves creating a hash table to store the elements of the input array and their indices. Then, for each element in the array, the code calculates the difference between the target and the current element. This difference represents the key that we want to look up in the hash table.
