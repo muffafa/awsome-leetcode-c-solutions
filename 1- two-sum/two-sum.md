@@ -23,7 +23,7 @@ If the key is not found in the hash table, the code inserts the current element 
 
 - Time complexity:
 
-The time complexity of the two-sum problem solved using a hash table is $$O(n)$$, where nnn is the size of the input array. This is because, in the worst case, we would have to iterate through the entire array and insert each element into the hash table. However, look up operations are $$O(1)$$ on average, so the average-case time complexity is $$O(n)$$. This makes the hash table approach more efficient compared to other approaches such as sorting the array first and then using two pointers, which would have a time complexity of $$O(nlogn)$$.
+The time complexity of the two-sum problem solved using a hash table is $O(n)$, where nnn is the size of the input array. This is because, in the worst case, we would have to iterate through the entire array and insert each element into the hash table. However, look up operations are $$O(1)$$ on average, so the average-case time complexity is $$O(n)$$. This makes the hash table approach more efficient compared to other approaches such as sorting the array first and then using two pointers, which would have a time complexity of $$O(nlogn)$$.
 
 - Space complexity:
 
