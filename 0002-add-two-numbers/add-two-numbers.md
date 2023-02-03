@@ -1,4 +1,4 @@
-# [A Linked List Approach to Adding Large Numbers in C Language](https://leetcode.com/problems/add-two-numbers/solutions/3134367/a-linked-list-approach-to-adding-large-numbers-in-c-language/)
+# [A Linked List Approach to Adding Large Numbers in C Language](https://leetcode.com/problems/add-two-numbers/solutions/3134366/a-linked-list-approach-to-adding-large-numbers-in-c-language/)
 
 ## Approach
 <!-- Describe your approach to solving the problem. -->
