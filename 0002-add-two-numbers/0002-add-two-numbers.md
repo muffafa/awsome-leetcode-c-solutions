@@ -33,6 +33,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ## Solutions
 <!-- Solutions of problem and their links. -->
 
-| ID  | METHOD  | LINK |
-| :-- | :-----: | :--- |
-| 1   | example |      |
+| ID  |   METHOD    | LINK                                     |
+| :-- | :---------: | :--------------------------------------- |
+| 1   | Linked List | [add-two-numbers.md](add-two-numbers.md) |
