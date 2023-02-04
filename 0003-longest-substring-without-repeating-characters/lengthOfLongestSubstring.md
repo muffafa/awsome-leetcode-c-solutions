@@ -13,8 +13,6 @@ Here's how the algorithm works:
 5. Repeat steps 2 to 4 for every character in the string until the end of the string is reached.
 6. Return `max_len` as the answer.
 
-This approach has a time complexity of O(n), where n is the length of the input string, since it iterates through the string only once.
-
 ## Complexity
 
 - Time complexity:
