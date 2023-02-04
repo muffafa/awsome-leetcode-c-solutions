@@ -31,6 +31,6 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ## Solutions
 <!-- Solutions of problem and their links. -->
 
-| ID  | METHOD  | LINK |
-| :-- | :-----: | :--- |
-| 1   | example |      |
+| ID  |     METHOD     | LINK                                                       |
+| :-- | :------------: | :--------------------------------------------------------- |
+| 1   | Sliding Window | [lengthOfLongestSubstring.md](lengthOfLongestSubstring.md) |
